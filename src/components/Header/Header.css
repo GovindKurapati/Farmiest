@@ -42,6 +42,8 @@
 
 .mainImg img {
   width: 480px;
+  backdrop-filter: saturate(160%) blur(4px); 
+  -webkit-backdrop-filter: saturate(180%) blur(4px);
 }
 
 .mainImg {
