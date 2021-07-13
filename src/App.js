@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+
+import BlogPosts from "./components/BlogPosts/BlogPosts";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header"
+import NewDishes from "./components/NewDishes/NewDishes";
+import OrganicProducts from "./components/OrganicProducts/OrganicProducts";
+import SpecialDish from "./components/SpecialDish/SpecialDish"
+import Testmonial from "./components/Testimonial/Testmonial";
+import VideoTile from "./components/VideoTile/VideoTile";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <SpecialDish/>
+      <NewDishes/>
+      <VideoTile/>
+      <OrganicProducts/>
+      <Testmonial/>
+      <BlogPosts/>
+      <Footer/>
     </div>
   );
 }
